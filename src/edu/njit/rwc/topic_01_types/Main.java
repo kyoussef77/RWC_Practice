@@ -140,7 +140,7 @@ public class Main {
         boolean isTrue = middle <= hi,isFalse = hi < lo;
         System.out.println(isTrue || isFalse); //  Logical OR, true when either side is true
         System.out.println(isTrue && isFalse); // Logical AND, true when both sides are true
-        System.out.println(!isFalse);// Logical NOT, true when the NOT-ed value is false, and vice versa
+        System.out.println(!isTrue);// Logical NOT, true when the NOT-ed value is false, and vice versa
     }
 
 }
