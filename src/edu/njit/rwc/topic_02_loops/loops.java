@@ -34,7 +34,19 @@ public class loops {
             System.out.println("Third else runs:" + value);
         }
 
+        int nums[] = {1,2,4,5,3};
 
+         /*
+        This is a foreach loop. It loops over every member of nums, assigning it to num.
+        It would be similar to using
+        for(int i = 0; i < nums.length; i++){
+            System.out.println("Number in array of nums: " + num);
+            ...
+        }
+         */
+        for(int num : nums){
+            System.out.println("Number in array of nums: " + num);
+        }
 
     }
 }
